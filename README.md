@@ -1,4 +1,4 @@
-# knotfree  
+# The Internet For Things  
 #TheI4T #knotfree #iot #mqtt
 
 Draft notes:
