@@ -1,1 +1,7 @@
-theme: jekyll-theme-tactile
+
+myvar: atw
+
+theme: "jekyll-theme-tactile"
+
+
+myvar2: atw2
