@@ -4,7 +4,7 @@
 my_number: 5
 ---
 
-#### What is wrong with the IoT the 'internet of things'? 
+#### What is wrong with IoT, the 'internet of things'? 
 
 Anything? Can we fix it? Can we even define it? 
 

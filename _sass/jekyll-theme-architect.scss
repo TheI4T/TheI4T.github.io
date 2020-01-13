@@ -1,6 +1,7 @@
 @import "normalize";
 @import "rouge-github";
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 /* LAYOUT STYLES */
 body {
@@ -53,6 +54,12 @@ header h2 {
   line-height: 1.3;
   color: #9ddcff;
   letter-spacing: 0;
+}
+
+#atwheader {
+  font-family: 'Permanent Marker', 'Helvetica Neue', Helvetica, Arial, serif;
+
+  font-size: 23px;
 }
 
 .inner {
