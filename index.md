@@ -11,14 +11,21 @@ I will attempt to define what is needed now to promote that IoT revolution. Then
 It's going to take more than one page. Here's the outline:
 
 * We'll define "Computer". Computers can be connected to each other with wires or radio.
+
 * We'll define "Network" and then define "Network Of Computers" or "Computer Network".
+
 * From this we can define an "Intranet".
+
 * Then we can define the "Network of Intranets" which is "The Internet" that we all know and love.
+
 * The Internet uses, at it's lower level, the "Internet Protocol", or "IP". We'll discuss the useful characteristrics of that.  
+
 * We'll define how every computer that has an "IP Address" can send a "Packet" to *any* other computer on The Internet. 
+
 * The IP packet delivery is "Unreliable" and "Insecure" so we'll define that and note that other "Layers above IP" provide reliability and security so it's enough to just invent IP and let the rest be follow-up.
 
 * IP addresses are numbers but people prefer to remember names (eg. google.com and not 216.58.192.142) so we'll define how the "Domain Name System" or "DNS" was created to "lookup" the IP addresses. 
+
 * DNS is a "centralized system" aka a "Monopoly" so it is managed by a non-profit organization.   
 
 * Now we can discuss the difference between "Mesh Routing" and "Hierarchical routing" and how IP is more mesh and DNS is more hierarchical.
@@ -30,8 +37,11 @@ Then:
 * We can define a "Thing" as being mostly similar to a computer. We will define how they are different (there's no use sending advertisement to them).
 
 * Then we can define a "Network of Things" and how that is commonly done these days. We will note that Things may not always have IPv6 addresses. 
+
 * Messages are commonly passed between things using a technique called "Pub/Sub" so that will be defined.
+
 * At this point we can observe that there are many Intranets of Things but there is *not* an "Internet of Things" despite the fact that people use the acronym "IoT".
+
 * Furthermore, there is no DNS for the things and it should be obvious that this would need to be non-profit and similar to the existing DNS with some changes or upgrades. 
 
 * We can design a name system for the things. I don't know its name. 
