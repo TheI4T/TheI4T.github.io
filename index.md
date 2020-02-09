@@ -6,7 +6,7 @@ my_number: 5
 
 ### Promoting and enabling the future of the Internet will have profound economic consequences as billions of new "Things" join the fray. 
 
-I will attempt to define what is needed now to promote that IoT revolution. Then I will present the methodology behind a new service to resolve issues. Finally, a detailed specification of how the service would work is presented here. Due to the magic of software systems the specification used is enough to bring the service into existance.
+I will attempt to define what is needed now to promote that IoT revolution. Then I will present the methodology behind a new service with the desired properties. Finally, a detailed specification of how the service would work is presented here. Due to the magic of software systems the specification is enough to 'bootstrap' the service into existence.
 
 It's going to take more than one page. Here's the outline:
 
@@ -55,7 +55,7 @@ Then:
 
 The other way to look at it is that Paul Mockapetris is my hero. -- Or -- If you want to control your home thermostat from work without going through a big tech company you're going to want to back this proposal. If you're sick of otherwise functional devices becoming useless when their manufacturer goes away then you've come to the right place. One internet for all the things. 
 
-I think should be clear at this point that these developments are __inevitable__ in one form or another. I'm working on it. 
+I think it should be clear at this point that these developments are __inevitable__ in one form or another. I'm working on it. 
 
 <div id = "atwheader" >
 - Alan Tracey Wootton -
