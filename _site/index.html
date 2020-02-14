@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/assets/css/style.css?v=54f2b9289f7c4c46f93d846ead0673c1a72b4f17" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2a21c3182565b0db26d67f6b3ff1d37e6ce03944" media="screen" type="text/css">
     <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
 
     <!--[if lt IE 9]>
@@ -12,17 +12,17 @@
     <![endif]-->
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>The Internet For Things | Working on ideas for a better IoT and calling it TheI4T for fun and no profit.</title>
+<title>Promoting and enabling the future of the Internet will have profound economic consequences as billions of new “Things” join the fray. | #IOT</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="The Internet For Things" />
+<meta property="og:title" content="Promoting and enabling the future of the Internet will have profound economic consequences as billions of new “Things” join the fray." />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Working on ideas for a better IoT and calling it TheI4T for fun and no profit." />
 <meta property="og:description" content="Working on ideas for a better IoT and calling it TheI4T for fun and no profit." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="The Internet For Things" />
+<meta property="og:site_name" content="#IOT" />
 <script type="application/ld+json">
-{"headline":"The Internet For Things","url":"http://localhost:4000/","name":"The Internet For Things","description":"Working on ideas for a better IoT and calling it TheI4T for fun and no profit.","@type":"WebSite","@context":"https://schema.org"}</script>
+{"headline":"Promoting and enabling the future of the Internet will have profound economic consequences as billions of new “Things” join the fray.","url":"http://localhost:4000/","name":"#IOT","description":"Working on ideas for a better IoT and calling it TheI4T for fun and no profit.","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -31,9 +31,9 @@
     <header>
       <div class="inner">
         <a href="http://localhost:4000/">
-          <h1>The Internet For Things</h1>
+          <h2>#IOT</h2> <!--was h1-->
         </a>
-        <h2>Working on ideas for a better IoT and calling it TheI4T for fun and no profit.</h2>
+        <h2>Working on ideas for a better IoT and calling it TheI4T for fun and no profit.</h2><!--was h2-->
         
           <a href="https://github.com/TheI4T/TheI4T.github.io" class="button"><small>View project on</small> GitHub</a>
         
@@ -44,11 +44,88 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h4 id="what-is-wrong-with-iot-the-internet-of-things">What is wrong with IoT, the ‘internet of things’?</h4>
+          <h3 id="promoting-and-enabling-the-future-of-the-internet-will-have-profound-economic-consequences-as-billions-of-new-things-join-the-fray">Promoting and enabling the future of the Internet will have profound economic consequences as billions of new “Things” join the fray.</h3>
 
-<p>Anything? Can we fix it? Can we even define it?</p>
+<p>I will attempt to define what is needed now to promote that IoT revolution. Then I will present the methodology behind a new service with the desired properties. Finally, a detailed specification of how the service would work is presented here. Due to the magic of software systems the specification is enough to ‘bootstrap’ the service into existence.</p>
 
-<p>An essay in many parts.</p>
+<p>It’s going to take more than one page. Here’s the outline:</p>
+
+<ul>
+  <li>
+    <p>We’ll define “Computer”. Computers can be connected to each other with wires or radio.</p>
+  </li>
+  <li>
+    <p>We’ll define “Network” and then define “Network Of Computers” or “Computer Network”.</p>
+  </li>
+  <li>
+    <p>From this we can define an “Intranet”.</p>
+  </li>
+  <li>
+    <p>Then we can define the “Network of Intranets” which is “The Internet” that we all know and love.</p>
+  </li>
+  <li>
+    <p>The Internet uses, at it’s lower level, the “Internet Protocol”, or “IP”. We’ll discuss the useful characteristrics of that.</p>
+  </li>
+  <li>
+    <p>We’ll define how every computer that has an “IP Address” can send a “Packet” to <em>any</em> other computer on The Internet.</p>
+  </li>
+  <li>
+    <p>The IP packet delivery is “Unreliable” and “Insecure” so we’ll define that and note that other “Layers above IP” provide reliability and security so it’s enough to just invent IP and let the rest be follow-up.</p>
+  </li>
+  <li>
+    <p>IP addresses are numbers but people prefer to remember names (eg. google.com and not 216.58.192.142) so we’ll define how the “Domain Name System” or “DNS” was created to “lookup” the IP addresses.</p>
+  </li>
+  <li>
+    <p>DNS is a “centralized system” aka a “Monopoly” so it is managed by a non-profit organization.</p>
+  </li>
+  <li>
+    <p>Now we can discuss the difference between “Mesh Routing” and “Hierarchical routing” and how IP is more mesh and DNS is more hierarchical.</p>
+  </li>
+  <li>
+    <p>The IP addresses which are so useful have been mostly exhausted so we’ll define “IPv6” which is meant to remedy that.</p>
+  </li>
+</ul>
+
+<p>Then:</p>
+
+<ul>
+  <li>
+    <p>We can define a “Thing” as being mostly similar to a computer. We will define how they are different (there’s no use sending advertisement to them).</p>
+  </li>
+  <li>
+    <p>Then we can define a “Network of Things” and how that is commonly done these days. We will note that Things may not always have IPv6 addresses.</p>
+  </li>
+  <li>
+    <p>Messages are commonly passed between things using a technique called “Pub/Sub” so that will be defined.</p>
+  </li>
+  <li>
+    <p>At this point we can observe that there are many Intranets of Things but there is <em>not</em> an “Internet of Things” despite the fact that people use the acronym “IoT”.</p>
+  </li>
+  <li>
+    <p>Furthermore, there is no DNS for the things and it should be obvious that this would need to be non-profit and similar to the existing DNS with some changes or upgrades.</p>
+  </li>
+  <li>We can design a name system for the things. I don’t know its name.
+    <ul>
+      <li>The price is specified in “micro dollars per month per device” so it’s not free but is extremely inexpensive.</li>
+      <li>The things will announce their own names and we’ll see that this is functionally equivalent to a “subscribe”.</li>
+      <li>We will see that sending messages up the DNS hierarchy with a “publish” is functionally equivalent to sending through IPv6. IPv6 is an optimization more useful for larger messaging rates and it will be good to have a fallback.</li>
+    </ul>
+  </li>
+  <li>We will design a system for getting remunerated for the costs involved.
+    <ul>
+      <li>Society is unlikely to allow profit taking or rent seeking. This makes funding the engineering development of the core-infrastructure impossible.</li>
+      <li>The tools and methods used to specify the existence and operation of society wide massive internet infrastructures are so very powerful now that it’s in the range of possibilities for a singe altruistic actor.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The other way to look at it is that Paul Mockapetris is my hero. – Or – If you want to control your home thermostat from work without going through a big tech company you’re going to want to back this proposal. If you’re sick of otherwise functional devices becoming useless when their manufacturer goes away then you’ve come to the right place. One internet for all the things.</p>
+
+<p>I think it should be clear at this point that these developments are <strong>inevitable</strong> in one form or another. I’m working on it.</p>
+
+<div id="atwheader">
+- Alan Tracey Wootton -
+</div>
 
 <!--  5 -->
 
@@ -74,6 +151,10 @@
             
               <li>
                 <a href="/2020/01/02/post2.html">Preliminary Notes</a>
+              </li>
+            
+              <li>
+                <a href="/2020/01/01/static-test.html">Static Test</a>
               </li>
             
               <li>
