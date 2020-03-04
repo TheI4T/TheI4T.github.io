@@ -25,9 +25,6 @@ Because they say these are 'static' pages but that's not true at all is it!
 - Alan Tracey Wootton -
 </div>
 
-<!--  {{page.my_number}} -->
-
-
-
-<!-- <div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script> -->
+<a href="https://twitter.com/alan_wootton?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alan_wootton</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
