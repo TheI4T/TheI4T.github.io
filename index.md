@@ -62,5 +62,3 @@ I think it should be clear at this point that these developments are __inevitabl
 </div>
 <a href="https://twitter.com/alan_wootton?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alan_wootton</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>

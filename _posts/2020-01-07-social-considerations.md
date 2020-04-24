@@ -14,5 +14,4 @@ Obviously it's going to need to be open source. The accounting will need to be t
 
 Some form of logging will be necessary but identifying information should not be collected in any way. 
 
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
+ 
