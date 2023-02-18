@@ -13,7 +13,6 @@ If all IoT devices shared the same address space then interoperability would be 
 
 Why is Ipv6 and a better DNS not taking care of this already? 
 
-
 ### Conclusions
 
 While my meager contributions here may or may not prove useful it's clear that eventually The I4T will arrive and will have desirable properties.

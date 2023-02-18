@@ -60,5 +60,6 @@ I think it should be clear at this point that these developments are __inevitabl
 <div id = "atwheader" >
 - Alan Tracey Wootton -
 </div>
-<a href="https://twitter.com/alan_wootton?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alan_wootton</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/alan_t_wootton?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alan_t_wootton</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+PS. This was my original proposal sent out to the ether in Jan '20. Since then I have filled out the story with a full stack solution. Alan Wootton - Feb '23. PSS. I learned React and Typescript so no more jekyll.
